@@ -1,0 +1,39 @@
+
+       /* Header Styling */
+       header {
+        background-color: #333; /* Gray color */
+        color: white;
+        text-align: center;
+        padding: 20px;
+       }
+        
+        
+        /* Style for the links */
+nav a {
+    color: gray; /* Gray color for the links */
+    text-decoration: none; /* Remove underlines */
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style for the header */
+h1 {
+    color: gray; /* Gray color for the header */
+    text-align: center;
+}
+
+/* Remove corners for destination images */
+.destination img {
+    border-radius: 0; /* No rounded corners */
+    width: 50%; /* Make sure the images up the full width of their container */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 10px;
+}
+
+/* Optional: Add some padding to the destination section */
+.destination {
+    padding: 10px;
+}

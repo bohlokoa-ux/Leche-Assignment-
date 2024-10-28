@@ -1,0 +1,70 @@
+ 
+      body {
+        font-family: Arial, sans serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+  /* Header Styling */
+       header {
+        background-color: #333; /* Gray color */
+        color: white;
+        text-align: center;
+        padding: 10px;
+       }
+        
+        
+        /* Style for the links */
+nav a {
+    color: white; /* Gray color for the links */
+    text-decoration: none; /* Remove underlines */
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style for the header */
+h1 {
+    color: gray; /* Gray color for the header */
+    text-align: center;
+}
+
+/* Remove corners for destination images */
+.destination img {
+    width: 500px; /* Reduce the width to 80% of the container */
+    height: 400px;
+}
+
+/* Optional: Add some padding to the destination section */`
+.destination {
+    padding: 10px;
+}
+
+.destination video{
+    width: 500px;
+    height: 400px;
+}footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+ }
+ footer div {
+    margin: 10px 0;
+ }
+body {
+    background-image:url('1728681344971.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+}
+
+h1 {
+    color: white;
+}
+p {
+    color: white;
+}
+h3 {
+    color: white;
+}

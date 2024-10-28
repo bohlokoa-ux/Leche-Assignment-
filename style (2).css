@@ -1,0 +1,178 @@
+
+        
+        /* Contact Page Styling */
+       /* General body Styling */
+       body{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4; /* Light background */
+       }
+    
+       /* Header Styling */
+       header {
+        background-color: #d8c29a; /* Light brown color */
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+       /* Form Styling */
+       form{
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0 0.1);
+       }
+       /* Header styling for "Contact Us" */
+       h1 {
+        color: #333;
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 20px;
+       }
+       /* Styling for "Get in Touch" message and other labels */
+       h2 {
+        color: #8B4513; /* Light brown color */
+        font-size: 22px;
+        margin-bottom: 15px;
+      }
+
+
+       label {
+        color: #8B4513; /* Light brown text for form labels */
+        font-size: 16px;
+        display: block;
+        margin: 10px 0 5px;
+       }
+       input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+       }
+       button {
+        background-color: #808080;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+       }
+       /* Hover Effect for Button */
+       button:hover {
+        background-color: #A0522D; /* Slightly darker brown on hover */
+       }
+       /* Footer Styling */
+       footer {
+        background-color: #d8c29a; 
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+       }
+  
+       /* Responsive Design */
+       @media (max-width: 600px) {
+        body {
+           padding: 10px;
+        }
+        form {
+           padding: 15px;
+        }
+       }
+      
+    /* General styling for the About Us page */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: f4f4f9; /* light background for the page */
+        margin: 0;
+        line-height: 1.6;
+    
+    }
+
+    /* Styling for the About Us container */
+    .about-container {
+        max-width: 1200px; /* Constrain content to a max width */ 
+        margin: 50px auto; /* Center to the container */
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1 ); /* Soft shadow for depth */
+        border-radius: 10px; /* Rounded corners */
+    }
+    /* Heading styling */
+    .about-contain{
+        h1 {
+        text-align: center;
+        color: #333; /* Dark gray for headings */
+        font-size: 36px; /* Large font size for the main heading */
+        margin-bottom: 20px;
+    }
+    .about-container h2 {
+        color: #555; /* Medium gray for subheadings */
+        font: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    /* Paragraph styling */ 
+    .about-container p {
+        font-size: 18px;
+        color: #666; /* Lighter gray for the body text */
+        margin-bottom: 15px;
+        line-height: 1.8;
+        text-align: justify;
+    }
+    /* Styling for mission and team sections */
+    .mission, .team {
+        padding: 15px;
+        margin-bottom: 30px;
+        background-color: #f9f9f9; /* Light gray background for sections */
+        border-left: 5px solid #3498db; /* Colored left border */
+        border-radius: 5px;
+    }   
+    /* Highlight specific section tittles */
+    .mission h2, .team h2 {
+        color: #3498db; /* Blue color for mission and team headers */
+    }
+    /* Team member styling */ 
+    .team-member {
+        margin-bottom: 10px;
+    }
+    .team-member h3 {
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 5px;
+    }
+    .team-member p {
+        font-size: 16px;
+        color: #777; /* Slightly lighter gray for team member descriptions */
+    }
+    /* Footer at the bottom of the page */
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: White;
+        margin-top: 50px;
+    }
+    /* Media queries for responsiveness */
+    @media (max-width: 768px) {
+        .about-container h1 {
+            padding: 15px;
+        }
+
+        .about-container h1 {
+            font-size: 28px;
+        } 
+        .about-container h2 {
+            font-size: 24px;
+        }
+        .about-container p {
+            font-size:16px;
+        }
+    }

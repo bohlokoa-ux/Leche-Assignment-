@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #808080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.destinations {
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+   }
+
+   .destination {
+   text-align: center;
+   width: 30%;
+   }
+
+   .destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+   }
+
+   footer {
+    background-color: #5555;
+    color: white;
+    text-align: center;
+    padding: 10px;
+   }
+
+   footer div {
+    margin: 10px 0;
+   }
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+  color: #ffcc00; /* Changes link color */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for destinations images */
+.destination img:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for destination headings */
+.destinations h2:hover {
+  color: #ffcc00; /* Changes heading color */
+  transition: color 0.3s ease; /* Smooth transition
+}

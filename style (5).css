@@ -1,0 +1,121 @@
+/* Global Styling */
+body{
+  
+    font-family: Arial, sans-serif; /* Web font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+} 
+
+/* Header styling */
+header {
+    background-color: #808080; /* Gray color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    background-color: #808080; /* Gray color */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Destinations container */
+.destinations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between destinations */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the grid */
+}
+ 
+/* Individual destination styling */ 
+.destination {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Destination image grid (for three pictures) */
+.destination img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 0; /* No corners */
+}
+
+/* Ensures that images are aligned in rows */
+.destination .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three pictures per row */
+    gap: 10px; /* Space between images */
+}
+
+/* Global Styling */
+body{
+  
+    font-family: Arial, sans-serif; /* Web font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+} 
+
+/* Header styling */
+header {
+    background-color: #808080; /* Gray color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    background-color: #808080; /* Gray color */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Destinations container */
+.destinations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between destinations */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the grid */
+}
+ 
+/* Individual destination styling */ 
+.destination {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Destination image grid (for three pictures) */
+.destination img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 0; /* No corners */
+}
+
+/* Ensures that images are aligned in rows */
+.destination .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three pictures per row */
+    gap: 10px; /* Space between images */
+}
